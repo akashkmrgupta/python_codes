@@ -1,0 +1,12 @@
+color=["red","blue","green","orange","blue"]
+color1=["red1","blue1","green1","orange1","blue1"]
+#print(color[-3])
+#color[1]="white"
+color.extend(color1)
+color.append("purple")
+color.insert(2,"pink")
+color.remove("red1")
+print(color)
+color.sort()
+print(color)
+print(color.index("blue1"))
